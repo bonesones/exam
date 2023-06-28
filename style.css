@@ -1,0 +1,99 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+header, footer {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    margin-top: 6rem;
+}
+
+footer p {
+    font-family: "Montserrat";
+    color: white;
+}
+
+.company-name {
+    color: white;
+    font-family: "Montserrat";
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.header-link {
+    color: white;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+
+
+
+
+.banner {
+    background-image: url("./header.png");
+    height: 438px;
+    width: 1044px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+.banner div {
+    background-color: black;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+}
+
+.banner__title,
+.banner__description {
+    color: white;
+    font-family: "Montserrat";
+}
+
+.banner__title {
+    margin: 0;
+}
+
+#viewer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+.about-info {
+    width: 1044px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat";
+    margin-top: 4rem;
+}

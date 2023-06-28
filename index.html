@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./photo-sphere-viewer/core/index.css" />
+    <link rel="stylesheet" href="./photo-sphere-viewer/markers-plugin/index.css" />
+    <link rel="stylesheet" href="./photo-sphere-viewer/virtual-tour-plugin/index.css" />
+    <link rel="stylesheet" href="./photo-sphere-viewer/gallery-plugin/index.css" />
+    <script src="./three/build/three.min.js"></script>
+    <script src="./photo-sphere-viewer/core/index.js"></script>
+    <script src="./photo-sphere-viewer/virtual-tour-plugin/index.js"></script>
+    <script src="./photo-sphere-viewer/markers-plugin/index.js"></script>
+    <script src="./photo-sphere-viewer/gallery-plugin/index.js"></script>
+</head>
+<body>
+    <header class="container">  
+        <div class="logo">
+            <img src="./logo.png" width="100" alt="">
+            <div class="company-name">
+                <h1>ОКОР</h1>
+                <span>Проектно-изыскательная организация</span>
+            </div>
+        </div>
+        <a class="header-link" href="#viewer">Экскурсия</a>
+    </header>
+    <main>
+        <section class="banner">
+            <div>
+                <h2 class="banner__title">
+                    Экусурсия по
+                </h2>
+                <span class="banner__description">
+                    организации ООО "ОКОР"
+                </span>
+            </div>
+            <a href="#viewer">
+                <img src="./arrow.png" alt=""> 
+            </a>
+        </section>
+        <p class="about-info">
+            Общество с ограниченной ответственностью «ОКОР» (ООО «ОКОР») основано в 1993г. Основное направление деятельности -  оказание инжиниринговых услуг в строительстве, включая проектно-изыскательские работы, землеустроительные работы, осуществление технического надзора за строительством, функции генподрядчика и заказчика.
+            В настоящее время коллектив ООО «ОКОР» насчитывает более 100 сотрудников, среди которых высококвалифицированные специалисты различных областей проектно-изыскательской деятельности, землеустройства и строительства.
+        </p>
+        <div id="viewer" style="width: 1044px; height: 450px;"></div>
+    </main>
+    <footer class="container">
+        <div class="logo">
+            <img src="./logo.png" width="100" alt="">
+            <div class="company-name">
+                <h1>ОКОР</h1>
+                <span>Проектно-изыскательная организация</span>
+            </div>
+        </div>
+        <p>Юр. адрес: 160009,  г. Вологда, ул. Чехова, д.2, офис 222</p>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
